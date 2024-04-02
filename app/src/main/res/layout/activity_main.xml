@@ -63,7 +63,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp">
             <Button
                 android:id="@+id/btn0"
                 android:layout_width="75dp"
@@ -154,7 +155,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/layout_linear"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
         android:textSize="26sp"
         android:text="@string/status"
@@ -165,6 +166,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textStatus"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
         android:text="@string/play_again"
         android:textSize="26sp"
         android:backgroundTint="#ffbb00"/>
@@ -174,6 +176,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_play_again"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
         android:text="@string/reset_game"
         android:textSize="26sp"
         android:backgroundTint="#cc1234"/>
